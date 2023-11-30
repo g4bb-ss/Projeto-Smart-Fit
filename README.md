@@ -1,0 +1,3 @@
+# Projeto-Smart-Fit
+Este é um projeto landing page da reabertura da Smart Fit.
+Este é um projeto landing page da reabertura da Smart Fit. O site é feito em HTML e CSS. Ele é divido por: horário (período que quer treinar: manhã, tarde e noite e os horários de cada.), botão para exibir unidades fechadas, botão para encontrar unidades, botão para limpar, resultados encontrados. Logo depois tem uma parte com instruções ao uso de máscara, toalha, bebedouro, vestiários (instruções para dizer se é obrigatório, recomendado. parcial, proibido, liberado.). Por fim, tem a parte de endereços, onde ficam as localizações das academias 
