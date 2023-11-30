@@ -1,0 +1,555 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'gotham-bold';
+    src: url(./gotham-bold.woff2);
+}
+@font-face {
+    font-family: 'gotham-black';
+    src: url(./gotham-black.woff2);
+}
+@font-face {
+    font-family: 'gotham-book';
+    src: url(./gotham-book.woff2);
+}
+@font-face {
+    font-family: 'gotham-light';
+    src: url(./gotham-light.woff2);
+}
+.barra_começo{
+    background-color: black;
+    height: 100px;
+}
+.barra_final{
+    background-color: #333333;
+}
+.cor_texto_do_fundao{
+    color: white;
+    font-family: 'gotham-light';
+    font-size: 13px;
+    margin-top: -8px;
+}
+.logo1 img{
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.logo2 img{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cor_texto_do_fundao{
+    color: white;
+}
+.reabertura_smart_fit{
+    margin-right: 630px;
+    font-size: medium;
+    color: black;
+    font-size: 20px;
+    font-family: "gotham-bold";
+}
+.align_smart_fit{
+    margin-right: 60px;
+    font-family: "gotham-bold";
+}
+.little_barra{
+    background-color: black;
+    width: 85px;
+    height: 10px;
+    margin-right: 820px;
+}
+.horario_de_funcionamento1{
+    margin-right: -10px;
+    font-family: "gotham-light";
+    width: 90%;
+}
+
+.horario_de_funcionamento2{
+    margin-right: 295px;
+    font-family: "gotham-light";
+    width: 60%;
+}
+.quadradao_de_horarios{
+     border: 4px solid #d9d9d9;
+    border-radius: 5px;
+    height: 370px;
+    width: 900px;
+}
+.relogio img{
+    margin-top: 15px;
+    margin-right: 840px;
+    height: 30px;
+}
+.align_horario{
+    margin-right: 740px;
+    margin-top: -30px;
+    color: #808080;
+    font-family: 'gotham-light';
+    font-size: 14px;
+}
+.periodo_de_treino{
+    color: #808080;
+    margin-right: 620px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: -15px;
+    font-family: "gotham-book";
+    font-size: 18px;
+}
+.tamanho_linha1{
+    width: 875px;
+}
+.align_buttons{
+    margin-right: 700px;
+    margin-top: -20px;
+}
+.align_manha{
+    margin-right: 98px;
+    margin-top: 10px;
+    font-family: 'gotham-light';
+}
+.align_hora_manha1{
+    margin-left: 765px;
+    margin-top: -25px;
+}
+.align_hora_manha2{
+    margin-left: 820px;
+     margin-top: -19px;
+}
+.align_hora_manha3{
+    margin-left: 845px;
+    margin-top: -19px;
+}
+.tamanho_linha2{
+    margin-left: 11px;
+    margin-top: 10px;
+    width: 875px;
+}
+.align_tarde{
+    margin-right: 107px;
+    margin-top: 10px;
+    font-family: 'gotham-light';
+}
+.align_hora_tarde1{
+    margin-left: 780px;
+    margin-top: -25px;
+}
+.align_hora_tarde2{
+    margin-left: 822px;
+    margin-top: -19px;
+}
+.align_hora_tarde3{
+    margin-left: 845px;
+    margin-top: -19px;
+}
+.tamanho_linha3{
+    margin-left: 11px;
+    margin-top: 10px;
+    width: 875px;
+}
+.align_noite{
+    margin-right: 108px;
+    margin-top: 10px;
+    font-family: 'gotham-light';
+}
+.align_hora_noite1{
+    margin-left: 778px;
+    margin-top: -23px;
+}
+.align_hora_noite2{
+    margin-left: 820px;
+    margin-top: -18px;
+}
+.align_hora_noite3{
+    margin-left: 843px;
+    margin-top: -19px;
+}
+.tamanho_linha4{
+    margin-left: 11px;
+    margin-top: 10px;
+    width: 875px;
+}
+.align_other_button{
+    margin-right: 855px;
+    margin-top: 20px;
+    font-family: 'gotham-light';
+}
+.align_exibir{
+    font-size: 13px;
+    margin-left: 33px;
+    margin-top: -18px;
+}
+.align_unidades{
+    font-size: 13px;
+    margin-left: 73px;
+    margin-top: -15px;
+}
+.align_fechadas{
+    margin-left: 135px;
+    margin-top: -15px;
+    font-size: 13px;
+}
+.align_resultados1{
+    margin-top: -13px;
+    margin-left: 690px;
+    font-size: 13px;
+    font-family: 'gotham-light';
+}
+.align_resultados2{
+    margin-top: -15px;
+    margin-left: 865px;
+    font-size: 14px;
+    font-family: 'gotham-bold';
+}
+.botão1{
+    height: 40px;
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 300px;
+    background-color: #FFB612;
+    border-radius: 5px;
+    border: #FFB612;
+    font-family: 'gotham-black';
+}
+.botão2{
+    height: 40px;
+    width: 300px;
+    margin-left: 330px;
+    margin-top: -50px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #808080;
+    font-family: 'gotham-black';
+}
+.align_button_limpar{
+    margin-top: -29px;
+}
+.instrucoes{
+    background-color: #e9e9e9;
+    width: 900px;
+    height: 150px;
+    border-radius: 5px;
+}
+.mascara1 img{
+    height: 55px;
+    margin-top: 50px;
+    margin-right: 790px;
+}
+.mascara2 img{
+    height: 51px;
+    margin-top: -70px;
+    margin-right: 570px;
+}
+.align_mascara2{
+    margin-top: -19px;
+}
+.align_text_mascara1{
+    margin-top: -113px;
+    margin-right: 680px;
+}
+.font_mascara{
+    font-family: 'gotham-black';
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.align_text_obrigatorio1{
+    margin-right: 790px;
+    margin-top: 80px;
+    font-size: 13px;
+}
+.align_text_recomendado1{
+    margin-right: 570px;
+    margin-top: -15px;
+    font-size: 13px;
+}
+.align_toalha1{
+    margin-top: -31px;
+}
+.toalha1 img{
+    height: 55px;
+    margin-top: -45px;
+    margin-right: 330px;
+}
+.align_toalha2{
+    margin-top: -19px;
+}
+.toalha2 img{
+    height: 55px;
+    margin-top: -100px;
+    margin-right: 120px;
+}
+.align{
+    margin-top: 20px;
+}
+.align_text_toalha{
+    margin-top: -111px;
+    margin-right: 250px;
+}
+.font_toalha{
+    font-family: 'gotham-black';
+    font-size: 15px;
+    margin-top: -119px;
+    margin-left: 20px;
+}
+.align_text_obrigatorio2{
+    margin-right: 330px;
+    margin-top: 79px;
+    font-size: 13px;
+}
+.align_text_recomendado2{
+    margin-right: 120px;
+    margin-top: -15px;
+    font-size: 13px;
+}
+.align_garrafa1{
+    margin-top: -36px;
+}
+.garrafa1 img{
+    height: 55px;
+    margin-top: -65px;
+    margin-right: -110px;
+}
+.align_garrafa2{
+    margin-top: -18px;
+}
+.garrafa2 img{
+    height: 55px;
+    margin-top: -45px;
+    margin-right: -260px;
+}
+.align_text_bebedouro{
+    margin-top: -109px;
+    margin-right: -190px;
+}
+.font_bebedouro{
+    font-family: 'gotham-black';
+    font-size: 15px;
+    margin-top: 15px;
+}
+.align_text_parcial1{
+    margin-right: -110px;
+    margin-top: 78px;
+    font-size: 13px;
+}
+.align_text_proibido1{
+    margin-right: -260px;
+    margin-top: -15px;
+    font-size: 13px
+}
+.align_cabide1{
+    margin-top: -33px;
+}
+.cabide1 img{
+    height: 55px;
+    margin-top: -40px;
+    margin-right: -490px;
+}
+.align_cabide2{
+    margin-top: -18px;
+}
+.cabide2 img{
+    height: 55px;
+    margin-top: -40px;
+    margin-right: -630px;
+}
+.align_cabide3{
+    margin-top: -18px;
+}
+.cabide3 img{
+    height: 55px;
+    margin-top: -40px;
+    margin-right: -770px;
+}
+.align_text_vestiarios{
+    margin-right: -630px;
+    margin-top: -111px;
+    width: 70%;
+}
+.font_vestiarios{
+    font-family: 'gotham-black';
+    font-size: 15px;
+    margin-top: 12px;
+    width: 70%;
+}
+.align_text_liberado{
+    margin-right: -490px;
+    margin-top: 78px;
+    font-size: 13px;
+    width: 70%;
+}
+.align_text_parcial2{
+    margin-right: -628px;
+    margin-top: -15px;
+    font-size: 13px;
+    width: 70%;
+}
+.align_text_proibido2{
+    margin-right: -770px;
+    margin-top: -15px;
+    font-size: 13px;
+    width: 70%;
+}
+.quadrado_de_endereco1{
+    background-color: #e9e9e9;
+    height: 420px;
+    width: 290px;
+    margin-right: 610px;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.align_text_aberto{
+    margin-right: 200px;
+}
+.cor_aberto{
+    color: #2FC022;
+    font-family: 'gotham-bold';
+    padding-top: 20px;
+}
+.align_nome-endereco1{
+    margin-right: 100px;
+    margin-top: 5px;
+}
+.font_bold{
+    font-family: 'gotham-bold'
+}
+.align_endereco1_1{
+    margin-right: 45px;
+    margin-top: 10px;
+}
+.font_size_endereco1{
+    font-size: 14px;
+}
+.align_endereco1_2{
+    margin-right: 158px;
+    font-size: 14px;
+}
+.align_endereco1_3{
+    margin-right: 123px;
+    font-size: 14px;
+}
+.tamanho_linha5{
+    width: 255px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.mascara1_1 img{
+    height: 60px;
+    margin-right: 220px;
+    margin-top: 10px;
+}
+.align_toalha1_1{
+    margin-top: -15px;
+}
+.toalha1_1 img{
+    height: 60px;
+    margin-right: 80px;
+    margin-top: -100px;
+}
+.align_garrafa2_1{
+    margin-top: -20px;
+}
+.garrafa2_1 img{
+    height: 60px;
+    margin-right: -50px;
+    margin-top: -100px;
+}
+.align_cabide3_1{
+    margin-top: -15px;
+}
+.cabide3_1 img{
+    height: 60px;
+    margin-right: -180px;
+    margin-top: -100px;
+}
+.align_seg_sex{
+    margin-right: 163px;
+    font-family: 'gotham-bold';
+    font-size: 15px;
+    margin-top: 25px;
+}
+.align_sab{
+    margin-top: -21px;
+    margin-left: 20px;
+    font-family: 'gotham-bold';
+    font-size: 15px;
+}
+.align_hora1{
+    margin-right: 170px;
+    margin-top: 3px;
+}
+.align_hora2{
+    margin-top: -20px;
+    margin-right: -60px;
+}
+.align_dom{
+    margin-right: 210px;
+    font-family: 'gotham-bold';
+    font-size: 15px;
+    margin-top: 40px;
+}
+.align_text_fechada{
+    margin-right: 190px;
+    margin-top: 5px;
+}
+.quadrado_de_endereco2{
+    background-color: #e9e9e9;
+    height: 420px;
+    width: 290px;
+    margin-right: 0px;
+    border-radius: 5px;
+    margin-top: -475px;
+}
+.align_text_fechado > h4{
+    margin-right: 185px;
+    /* margin-top: 22px; */
+}
+.cor_fechado{
+    color: #dc0a17;
+    font-family: 'gotham-bold';
+}
+.align_nome-endereco2{
+    margin-right: 150px;
+    margin-top: 5px;
+}
+.font_bold{
+    font-family: 'gotham-bold'
+}
+.align_endereco2_1{
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.font-size_av-gui{
+    font-size: 13.5px;
+}
+.align_endereco2_2{
+    margin-right: 170px;
+    margin-top: 3px;
+}
+.font-size_sp{
+    font-size: 13.5px;
+    margin-left: 10px;
+}
+.quadrado_de_endereco3{
+    background-color: #e9e9e9;
+    height: 420px;
+    width: 290px;
+    margin-left: 610px;
+    border-radius: 5px;
+    margin-top: -421px;
+}
+.quadrado_de_endereco2 .align_text_fechado h4 {
+    padding-top: 20px;
+}
+.quadrado_de_endereco3 .align_text_fechado h4{
+    padding-top: 20px;
+}
+* p{
+    font-family: 'gotham-light';
+}
+.body{
+    width: 10%;
+}

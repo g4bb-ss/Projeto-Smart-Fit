@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFit</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+        <center>
+    <header class="barra_começo">
+        <div class="logo1">
+            <img src="./src/logo.svg">
+        </div>
+    </header>
+
+    <br>
+
+    <div class="reabertura_smart_fit">
+        <h1>REABERTURA <br>
+            <div class="align_smart_fit">
+                SMART FIT 
+            </div>
+        </h1> 
+    </div>
+
+    <br>
+
+    <div class="little_barra"></div>
+
+    <br>
+
+    <p class="horario_de_funcionamento1">
+        O horário de funcionamento das nossas unidades está seguindo os decretos de cada município. Por isso, confira aqui  <br> 
+    </p>
+    
+    <p class="horario_de_funcionamento2">
+        se sua unidade está aberta e as medidas de segurança que estamos seguindo. 
+    </p>
+
+    <br>
+
+    <div class="quadradao_de_horarios">
+
+       <div class="relogio">
+            <img src="./src/icon-hour.png">
+        </div>
+
+        <p class="align_horario">
+            Horário
+        </p>
+
+        <div class="periodo_de_treino">
+            Qual período quer treinar?
+        </div>
+
+        <br>
+
+        <div>
+            <hr class="tamanho_linha1">
+        </div>
+
+        <br>
+
+        <div class="align_buttons">
+
+            <form>
+        
+        <div class="align_manha"> 
+
+        <input type="radio" id="html" name="fav_hour" value="Manhã">
+
+        <label for="manhã">
+            Manhã
+        </label> 
+        
+        <br> 
+            
+        <div class="align_hora_manha1">
+            <p>06:00</p>
+        </div> 
+
+        <div class="align_hora_manha2">
+            <p>
+                às
+            </p>
+        </div>
+
+        <div class="align_hora_manha3">
+            <p>
+                12:00
+            </p>
+        </div> 
+         
+        <hr class="tamanho_linha2">
+
+        </div>
+        
+        <div class="align_tarde">
+
+        <input type="radio" id="tarde" name="fav_hour" value="Tarde">
+        
+        <label for="tarde">
+            Tarde
+        </label>
+
+        <br>
+
+        <div class="align_hora_tarde1">
+            <p>
+                12:01
+            </p>
+        </div>
+
+        <div class="align_hora_tarde2">
+            <p>
+                às
+            </p>
+        </div>
+
+        <div class="align_hora_tarde3">
+            18:00
+        </div>
+         
+        <hr class="tamanho_linha3">
+
+        </div>
+        
+        <div class="align_noite">
+
+        <input type="radio" id="noite" name="fav_hour" value="Noite">
+
+        <label for="noite">
+            Noite
+        </label>
+        
+        <br>
+
+        <div class="align_hora_noite1">
+            <p>
+                18:01
+            </p>
+        </div>
+
+        <div class="align_hora_noite2">
+            <p>
+                às
+            </p>
+        </div>
+
+        <div class="align_hora_noite3">
+            <p>
+                23:00
+            </p>
+        </div>
+        
+        <hr class="tamanho_linha4">
+
+        </div>
+        
+            </form>
+        </div>
+
+        <br>
+
+        <br>
+
+        <div class="align_other_button">
+            <input type="checkbox"> 
+                <div class="align_exibir">
+                    Exibir
+                </div> 
+                    <div class="align_unidades">
+                        unidades
+                    </div> 
+                        <div class="align_fechadas">
+                            fechadas
+                        </div>
+        </div>
+
+        <div class="align_resultados1">
+            <p>
+                Resultados encontrados: 
+            </p>
+        </div>
+
+        <div class="align_resultados2">
+            <h4>
+                0
+            </h4>
+        </div>
+
+        <div>
+            <button class="botão1">
+                ENCONTRAR UNIDADES
+            </button>
+        </div>
+
+        <div class="align_button_limpar">
+            <button class="botão2">
+                LIMPAR
+            </button>
+        </div>
+
+        </div>
+
+        <br>
+
+        <br>
+
+        <div class="instrucoes">
+
+            <div class="mascara1">
+                <img src="./src/required-mask.png">
+            </div>
+
+            <div class="align_mascara2">
+                <div class="mascara2">
+                    <img src="./src/recommended-mask.png">
+                </div>
+            </div>
+
+            <div class="align_text_mascara1">
+                <h3 class="font_mascara">
+                    Máscara
+                </h3>
+            </div>
+
+            <div class="align_text_obrigatorio1">
+                <p>
+                    Obrigatório
+                </p>
+            </div>
+
+            <div class="align_text_recomendado1">
+                <p>
+                    Recomendado
+                </p>
+            </div>
+
+            <div class="align_toalha1">
+                <div class="toalha1">
+                    <img src="./src/required-towel.png">
+                </div>
+            </div>
+
+            <div class="align_toalha2">
+                <div class="toalha2">
+                    <img src="./src/recommended-towel.png">
+                </div>
+            </div>
+
+            <div class="align">
+                <div class="align_text_toalha">
+                    <h3 class="font_toalha">
+                        Toalha
+                    </h3>
+                </div>
+
+            <div class="align_text_obrigatorio2">
+                <p>
+                    Obrigatório
+                </p>
+            </div>
+
+            <div class="align_text_recomendado2">
+                <p>
+                    Recomendado
+                </p>
+            </div>
+
+            </div>
+
+            <div class="align_garrafa1">
+                <div class="garrafa1">
+                    <img src="./src/partial-fountain.png">
+                </div>
+            </div>
+
+            <div class="align_garrafa2">
+                <div class="garrafa2">
+                    <img src="./src/forbidden-fountain.png">
+                </div>
+            </div>
+
+            <div class="align_text_bebedouro">
+                <h3 class="font_bebedouro">
+                    Bebedouro
+                </h3>
+            </div>
+
+            <div class="align_text_parcial1">
+                <p>
+                    Parcial
+                </p>
+            </div>
+
+            <div class="align_text_proibido1">
+                <p>
+                    Proibido
+                </p>
+            </div>
+
+            <div class="align_cabide1">
+                <div class="cabide1">
+                    <img src="./src/required-lockerroom.png">
+                </div>
+            </div>
+
+            <div class="align_cabide2">
+                <div class="cabide2">
+                    <img src="./src/partial-lockerroom.png">
+                </div>
+            </div>
+
+            <div class="align_cabide3">
+                <div class="cabide3">
+                    <img src="./src/forbidden-lockerroom.png">
+                </div>
+            </div>
+
+            <div class="align_text_vestiarios">
+                <h3 class="font_vestiarios">
+                    Vestiários
+                </h3>
+            </div>
+
+            <div class="align_text_liberado">
+                <p>
+                    Liberado
+                </p>
+            </div>
+
+            <div class="align_text_parcial2">
+                <p>
+                    Parcial
+                </p>
+            </div>
+
+            <div class="align_text_proibido2">
+                <p>
+                    Proibido
+                </p>
+            </div>
+        </div>
+
+            <br>
+            
+            <br>
+            
+            <br>
+
+            <div class="quadrado_de_endereco1">
+
+                <div class="align_text_aberto">
+                    <h4 class="cor_aberto">
+                        Aberto
+                    </h4>
+                </div>
+
+                <div class="align_nome-endereco1">
+                    <h3 class="font_bold">
+                        Vicente Linhares
+                    </h3>
+                </div>
+
+                <div class="align_endereco1_1">
+                    <div class="font_size_endereco1">
+                        <p>
+                            Rua Tibúrcio Cavalcante, 1885 - <br> 
+                        </p>
+                    </div>
+                
+                    <div class="align_endereco1_2">
+                        <p>
+                            Meireles <br>
+                        </p>
+                    </div>
+
+                    <div class="align_endereco1_3">
+                        <p>
+                            Fortaleza, CE
+                        </p>
+                    </div>
+
+                </div>
+                
+                 
+                
+                <hr class="tamanho_linha5">
+
+                <div class="mascara1_1">
+                    <img src="./src/required-mask.png">
+                </div>
+
+                <div class="align_toalha1_1">
+                    <div class="toalha1_1">
+                        <img src="./src/required-towel.png">
+                    </div>
+                </div>
+
+                <div class="align_garrafa2_1">
+                    <div class="garrafa2_1">
+                        <img src="./src/partial-fountain.png">
+                    </div>
+                </div>
+
+                <div class="align_cabide3_1">
+                    <div class="cabide3_1">
+                        <img src="./src/forbidden-lockerroom.png">
+                    </div>
+                </div>
+
+                <div class="align_seg_sex">
+                    <h3>
+                        Seg. à Sex.
+                    </h3>
+                </div>
+
+                <div class="align_sab">
+                    <h3>
+                        Sáb.
+                    </h3>
+                </div>
+
+                <div class="align_hora1">
+                    <p>
+                        06h às 22h
+                    </p>
+                </div>
+
+                <div class="align_hora2">
+                    <p>
+                        09h às 18h
+                    </p>
+                </div>
+
+                <div class="align_dom">
+                    <h3>
+                        Dom.
+                    </h3>
+                </div>
+
+                <div class="align_text_fechada">
+                    <p>
+                        Fechada
+                    </p>
+                </div>
+            </div>
+
+                <br>
+
+                <br>
+                
+                <br>
+
+                <div class="quadrado_de_endereco2">
+
+                    <div class="align_text_fechado">
+                        <h4 class="cor_fechado">
+                            Fechado
+                        </h4>
+                    </div>
+
+                    <div class="align_nome-endereco2">
+                        <h3 class="font_bold">
+                            Vila Carrão
+                        </h3>
+                    </div>
+
+                    <div class="align_endereco2_1">
+                        <p class="font-size_av-gui">
+                            Av. Guilherme Giorgi, 1460, Vila Carrão,
+                        </p>
+                    </div>
+
+                    <div class="align_endereco2_2">
+                        <p class="font-size_sp">
+                            São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+                    
+                <div class="quadrado_de_endereco3">
+                        <div class="align_text_fechado">
+                            <h4 class="cor_fechado">
+                                Fechado
+                            </h4>
+                        </div>
+
+                    <div class="align_nome-endereco2">
+                        <h3 class="font_bold">
+                            Vila Carrão
+                        </h3>
+                    </div>
+
+                    <div class="align_endereco2_1">
+                        <p class="font-size_av-gui">
+                            Av. Guilherme Giorgi, 1460, Vila Carrão,
+                        </p>
+                    </div>
+
+                    <div class="align_endereco2_2">
+                        <p class="font-size_sp">
+                            São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+                     
+                    
+                    <br>
+
+                    <br>
+
+                    <br>
+
+                    <br>
+
+                    <br>
+
+    <footer class="barra_final">
+
+        <div class="logo2">
+            <img src="./src/logo.svg">
+        </div>
+
+        <h3 class="cor_texto_do_fundao">
+            Todos os direitos reservados - 2020
+        </h3>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+        
+    </footer>
+
+        </center>
+
+        
+</body>
+</html>
